@@ -8,7 +8,7 @@ public class Calculator {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        System.out.println("Choose operation: 1-Add  2-Subtract  3-Multiply");
+        System.out.println("Choose operation: 1-Add  2-Subtract  3-Multiply 4-division");
         int choice = sc.nextInt();
 
         switch(choice) {
@@ -21,6 +21,8 @@ public class Calculator {
             case 3:
                 System.out.println("Product = " + (a * b));
                 break;
+            case 4:
+                System.out.println("Division = "+(a/b));
             default:
                 System.out.println("Invalid choice");
         }
